@@ -1,0 +1,111 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Truculenta', sans-serif;
+}
+
+/* img {
+    width: 100px;
+} */
+
+#hero {
+    background-image: url("images/VicFalls.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* width: auto;
+    height: auto; */
+    padding: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.title {
+    background: #457B9D;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+.subtitle {
+    background: teal;
+    padding: 5px 10px;
+    /* width: 400px; */
+    /* margin: 0 auto; */
+    color: white;
+    border-radius: 10px;
+}
+
+#container-activities {
+    color: #1D3557;
+    background-color: #F1FAEE;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: space-around; */
+    padding: 30px 50px;
+}
+
+#activities {
+    display: flex;
+    /* align-items: center; 
+    justify-content: space-around; */
+}
+
+.img-activity {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.img-activity:hover {
+    transform: scale(1.7);
+}
+
+.img-activities {
+    padding: 5px 10px;
+    /* width: auto;
+    margin: 0 auto; */
+}
+
+#container-guide {
+    display: flex;
+    padding: 5% 20%;
+}
+
+#guide {
+    width: auto;
+    margin: 0 auto;
+    background: #A8DADC;
+    display: flex;
+    justify-content: center;
+    padding: 20px 40px;
+    border-bottom: 5px solid #1D3557;
+    border-radius: 10px;
+}
+
+#guide-paragraph {
+    font-style: italic;
+}
+
+.guide-info {
+    padding: 0 25px;
+}
+
+#img-lilwe {
+    width: 150px;
+    border-radius: 10px;
+    /* padding-left: 10px; */
+}
